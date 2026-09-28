@@ -1,48 +1,49 @@
-# NiceGUI Calculator
+# Calculadora de Suma con NiceGUI
 
-A simple calculator built with Python and [NiceGUI](https://nicegui.io/) for the
-programming assignment in repository
-`Prof-Luis1986/3-A-Programacion`.
+Proyecto de Python para una calculadora sencilla que suma dos números. La
+interfaz está hecha con [NiceGUI](https://nicegui.io/) y los textos están en
+español.
 
-## Run locally
+## Instalación
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install nicegui
-python main.py
 ```
 
-You can also install the pinned project dependency list:
+También puedes instalar la dependencia desde el archivo del proyecto:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Then open the local URL shown in the terminal. The calculator also accepts
-keyboard input:
+## Ejecutar
 
-- `0`–`9` for numbers
-- `+`, `-`, `*`, `/` for operations
-- `%` for percentage
-- `Enter` or `=` to calculate
-- `Escape` or `Delete` to clear
-- `Backspace` to remove the last digit
+```bash
+python main.py
+```
 
-## GitHub submission
+Después, abre la dirección local que aparezca en la terminal.
 
-The intended personal branch is:
+## Funciones
+
+- Escribir un número en `Número 1`.
+- Escribir un número en `Número 2`.
+- Presionar `SUMAR` para ver el resultado.
+- Presionar `LIMPIAR` para borrar los campos y regresar a `Resultado: 0`.
+- Mostrar un mensaje claro cuando uno de los valores no es numérico.
+
+## Entrega en GitHub
+
+El proyecto está preparado para la rama personal:
 
 ```text
 3A-pr2-2026
 ```
 
-From the project folder, create or switch to that branch and push it to the
-professor's repository:
+Repositorio personal:
 
-```bash
-git checkout -b 3A-pr2-2026
-git add .
-git commit -m "Build NiceGUI calculator"
-git push -u origin 3A-pr2-2026
+```text
+https://github.com/garciasarai3aprogramacion-lgtm/3A-pr2-2026
 ```
