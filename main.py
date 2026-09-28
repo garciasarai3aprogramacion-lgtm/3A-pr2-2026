@@ -7,7 +7,7 @@ def sumar() -> None:
     try:
         numero_1 = float(numero1.value)
         numero_2 = float(numero2.value)
-        resultado.text = f"Resultado: {numero_1 + numero_2:g}"
+        resultado.text = f"Resultado: {numero_1 + numero_2}"
     except (TypeError, ValueError):
         resultado.text = "Ingresa números válidos"
 
